@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SangeetSutra Instruments</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="custom-header">
+    <div class="top-row">
+      <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search instruments..." onkeyup="filterInstruments()">
+      </div>
+      <a href="index.html" class="back-to-main">Back to Main Page</a>
+    </div>
+  </header>
+
+  <div class="title">
+  <h1>🎶🎵 Ready to Dive into SangeetSutra? 🇮🇳🪔</h1>
+    </div>
+ <p class="instruction-text">Tap an instrument 🎷🎻 image 🖼️ to learn more about it! and hit  like ❤️ to your favourite instrument!! 🥁🎼</p>
+
+  <main>
+    <section class="instrument-gallery">
+      <div class="instrument-card" data-name="tabla">
+        <img src="images/tabla.jpg" alt="Tabla" onclick="showInfo('tabla', this)">
+        <p>Tabla</p>
+        <span class="heart" onclick="toggleFavorite(this)">♡</span>
+      </div>
+      <div class="instrument-card" data-name="sitar">
+        <img src="images/sitar.jpg" alt="Sitar" onclick="showInfo('sitar', this)">
+        <p>Sitar</p>
+        <span class="heart" onclick="toggleFavorite(this)">♡</span>
+      </div>
+      <div class="instrument-card" data-name="veena">
+        <img src="images/veena.jpg" alt="Veena" onclick="showInfo('veena', this)">
+        <p>Veena</p>
+        <span class="heart" onclick="toggleFavorite(this)">♡</span>
+      </div>
+      <div class="instrument-card" data-name="bansuri">
+        <img src="images/bansuri.jpg" alt="Bansuri" onclick="showInfo('bansuri', this)">
+        <p>Bansuri</p>
+        <span class="heart" onclick="toggleFavorite(this)">♡</span>
+      </div>
+      <div class="instrument-card" data-name="sarangi">
+        <img src="images/sarangi.jpg" alt="Sarangi" onclick="showInfo('sarangi', this)">
+        <p>Sarangi</p>
+        <span class="heart" onclick="toggleFavorite(this)">♡</span>
+      </div>
+      <div class="instrument-card"data-name="santoor">
+        <img src="images/santoor.jpg" alt="Santoor" onclick="showInfo('santoor', this)">
+        <p>Santoor</p>
+        <span class="heart" onclick="toggleFavorite(this)">♡</span>
+      </div>
+      <div class="instrument-card" data-name="shehnai">
+        <img src="images/shehnai.jpg" alt="Shehnai" onclick="showInfo('shehnai', this)">
+        <p>Shehnai</p>
+        <span class="heart" onclick="toggleFavorite(this)">♡</span>
+      </div>
+      <div class="instrument-card" data-name="dhol">
+        <img src="images/dhol.jpg" alt="Dhol" onclick="showInfo('dhol', this)">
+        <p>Dhol</p>
+        <span class="heart" onclick="toggleFavorite(this)">♡</span>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

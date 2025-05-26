@@ -1,0 +1,253 @@
+body.index-page {
+font-family: Arial, sans-serif;
+  background-image: url('images/3.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #333;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('images/ba.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #333;
+}
+
+.custom-header {
+  background-color: rgba(101, 22, 6, 0.8);
+  padding: 10px 20px;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 16px;
+  width: 500px;
+  border-radius: 8px;
+  border: 1px solid #f4e9e9;
+}
+
+.back-to-main {
+  background: #fbcc2f;
+  color: #040404;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.back-to-main:hover {
+  background: #f6f0f3;
+}
+
+.title{
+  margin: 20px 0 10px;
+  font-size: 2rem;
+  color: #ffff1f;
+  text-align: center;
+}
+
+.instruction-text {
+  font-size: 1.5rem;
+  color: #ffd737;
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.instrument-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px;
+}
+
+.instrument-card {
+  background: #340c01;
+  border-radius: 20px;
+  padding: 10px;
+  width: 300px;
+  transition: transform 0.3s;
+}
+ 
+.instrument-card p {
+  font-family: 'Pacifico',cursive;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  background: #feeabb;
+  color: #151414;
+  text-align: center;
+}
+
+.instrument-card:hover {
+  transform: scale(1.05);
+}
+
+.instrument-card img {
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.heart {
+  font-size: 2.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 6px 0;
+  color: #f6f0f3;
+}
+
+.heart.favorited {
+  color: red;
+  font-size: 2.5rem;
+}
+
+.main-header {
+  background-color: rgba(69, 11, 5, 0.8);
+  padding: 15px 0;
+  text-align: center;
+}
+
+.icon-links {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.icon-link {
+  background-color: rgb(255, 200, 35);
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.icon-link:hover {
+  background-color: #fff1a8;
+}
+
+.hero-section {
+  height: 100vh;
+; 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.hero-left h1 {
+  font-size: 5rem;
+  color: #ffcc00;
+}
+
+.hero-left span {
+  color: #ff6f00;
+}
+
+ .hero-image {
+  max-width: 200%;
+  width: 500px;
+  margin-top: 250px;
+  margin-right: 650px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.intro-section {
+  background-color: rgba(0, 0, 0, 0.6); /* Transparent dark background */
+  color: #ffa30f; /* Golden yellow text */
+ padding-top:  100px;
+ padding-bottom: 100px;
+  max-width: 900px;
+  margin:80px auto; /* Center horizontally with space from top */
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: 'Georgia', serif;
+  border: 5px double #ffd700; /* Stylish double border */
+  border-radius: 20px; /* Rounded corners */
+  backdrop-filter: blur(5px); /* Optional: for a glassy effect */
+}
+
+footer {
+  background-color:  rgba(69, 11, 5, 0.8);
+  padding: 20px;
+  text-align: center;
+  color: #ffcc00;
+}
+
+.footer-icons img {
+  width: 100px;
+  height: 100px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+.footer-icons p{
+color: #ffffff;
+font-size: 1.5rem;
+}
+.social-follow {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 10px;
+}
+
+.social-follow a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #101010;
+  font-weight: bold;
+  transition: opacity 0.3s;
+  font-size: 1.7rem;
+}
+
+.social-follow a:hover {
+  opacity: 0.7;
+}
+
+.social-icon {
+  width: 35px;
+  height: 35px;
+  display: block;
+}
+
+.instrument-info{
+    font-size: 20px;
+padding: 5px 5px;
+  color: #000000;
+  background-color: #ffab0f;
+  border-radius: 8px;
+  font-family: 'Pacifico',cursive;
+  font-weight: bold;
+  text-align: justify;
+}
